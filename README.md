@@ -291,7 +291,8 @@ This project is a complete automation framework designed for testing the Amazon 
    note: run docker-compose.yml file
 
 🐳 **Run Tests on Docker Grid**
-6. **Navigate to test_output and start the docker grid**
+
+6. Navigate to test_output and start the docker grid
   -->  docker-compose up -d
 
  7. **Search  Web Browser**
@@ -309,9 +310,14 @@ This project is a complete automation framework designed for testing the Amazon 
   --> docker-compose down
 
 
+-----------------------------------------------------------
+
 📌 Configurations
 Edit the following file for environment settings:
 src/main/java/Amazon/config/config.properties
+
+
+-----------------------------------------------------------
 
 
 📸 Screenshots & Reports
@@ -319,10 +325,19 @@ Screenshots on failure are auto-saved using ScreenshotUtils.
 
 
 
+-------------------------------------------------------------
+
+
+
 🙋 Author
 Shoaib Ahmed
 BSc in CSE, Green University of Bangladesh
 💼 Focus: QA Automation Engineer
+
+
+
+-------------------------------------------------------------
+
 
 
 
