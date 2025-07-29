@@ -10,8 +10,10 @@ Amazon_Selenium_Project/
 ├── .idea/
 │   ├── inspectionProfiles/
 │   │   └── Project_Default.xml
+
 │   ├── libraries/
 │   │   └── chromedriver_win64.xml
+
 │   ├── .gitignore
 │   ├── compiler.xml
 │   ├── encodings.xml
@@ -24,6 +26,7 @@ Amazon_Selenium_Project/
 │
 ├── extent-test-output/
 │   └── index.html
+
 │
 ├── src/
 │   ├── main/
@@ -32,33 +35,41 @@ Amazon_Selenium_Project/
 │   │   │       ├── annotations/
 │   │   │       │   ├── AnnotationsTest.java
 │   │   │       │   └── FrameworkAnnotation.java
+
 │   │   │       │
 │   │   │       ├── com.trywithresources/
 │   │   │       │   └── Runner.java
+
 │   │   │       │
 │   │   │       ├── config/
 │   │   │       │   ├── config.properties
 │   │   │       │   └── EnumRunner.java
+
 │   │   │       │
 │   │   │       ├── constants/
 │   │   │       │   └── FrameworkConstants.java
+
 │   │   │       │
 │   │   │       ├── dataprovider.latest/
 │   │   │       │   ├── DataProviderDependencyInj.java
 │   │   │       │   ├── DataProviderExcel.java
 │   │   │       │   ├── DataProviderTest.java
 │   │   │       │   └── Employee.java
+
 │   │   │       │
 │   │   │       ├── dockerexecution/
 │   │   │       │   └── ExecuteTestsInDocker.java
+
 │   │   │       │
 │   │   │       ├── driver/
 │   │   │       │   ├── Driver.java
 │   │   │       │   ├── DriverManager.java
 │   │   │       │   └── package-info.java
+
 │   │   │       │
 │   │   │       ├── encodeaecode/
 │   │   │       │   └── Runner.java
+
 │   │   │       │
 │   │   │       ├── enums/
 │   │   │       │   ├── CategoryType.java
@@ -66,6 +77,7 @@ Amazon_Selenium_Project/
 │   │   │       │   ├── Severity.java
 │   │   │       │   ├── SeverityClass.java
 │   │   │       │   └── WaitStrategy.java
+
 │   │   │       │
 │   │   │       ├── exceptions/
 │   │   │       │   ├── BrowserInvocationFailedException.java
@@ -76,10 +88,12 @@ Amazon_Selenium_Project/
 │   │   │       │   ├── InvalidPathForFilesException.java
 │   │   │       │   ├── InvalidPathForPropertyFileException.java
 │   │   │       │   └── PropertyFileUsageException.java
+
 │   │   │       │
 │   │   │       ├── factory/
 │   │   │       │   ├── DriverFactory.java
 │   │   │       │   └── ExplicitWaitFactory.java
+
 │   │   │       │
 │   │   │       ├── listeners/
 │   │   │       │   ├── AnnotationTransformer.java
@@ -88,6 +102,7 @@ Amazon_Selenium_Project/
 │   │   │       │   ├── MethodInterceptor.java
 │   │   │       │   ├── Retry.java
 │   │   │       │   └── RetryFailedTests.java
+
 │   │   │       │
 │   │   │       ├── pages/
 │   │   │       │   ├── AmazonHamburgerMenuPage.java
@@ -95,11 +110,13 @@ Amazon_Selenium_Project/
 │   │   │       │   ├── AmazonLaptopPage.java
 │   │   │       │   ├── AmazonPrinterAndInkPage.java
 │   │   │       │   └── BasePage.java
+
 │   │   │       │
 │   │   │       ├── reports/
 │   │   │       │   ├── ExtentLogger.java
 │   │   │       │   ├── ExtentManager.java
 │   │   │       │   └── ExtentReport.java
+
 │   │   │       │
 │   │   │       ├── utils/
 │   │   │       │   ├── DataProviderUtils.java
@@ -107,11 +124,13 @@ Amazon_Selenium_Project/
 │   │   │       │   ├── ExcelUtils.java
 │   │   │       │   ├── PropertyUtils.java
 │   │   │       │   └── ScreenshotUtils.java
+
 │   │   │       │
 │   │   │       └── webdrivermanager/
 │   │   │           ├── allclasses-index.html
 │   │   │           ├── allpackages-index.html
 │   │   │           └── element-list
+
 │   │   │
 │   │   └── resources/
 │   │       ├── glass.png
@@ -120,34 +139,41 @@ Amazon_Selenium_Project/
 │   │           ├── jquery-3.6.1.min.js
 │   │           ├── jquery-ui.min.css
 │   │           └── jquery-ui.min.js
+
 │   │
 │   └── test/
 │       ├── java/
 │       │   └── tests/
 │       │       ├── AmazonTest.java
 │       │       └── BaseTest.java
+
 │       │
 │       └── test_output/
 │           └── docker-compose.yml
+
 │
 ├── executable/
 │   ├── chromedriver-win64/
 │   ├── geckodriver-v0.34.0-win64/
 │   ├── chromedriver-win64.zip
 │   └── geckodriver-v0.34.0-win64.zip
+
 │
 ├── index-files/
 │   └── index-1.html
+
 │
 ├── legal/
 │   ├── COPYRIGHT
 │   ├── LICENSE
 │   ├── jquery.md
 │   └── jqueryUI.md
+
 │
 ├── target/
 │   ├── index.html
 │   └── kibana.json.txt
+
 │
 ├── .gitignore
 ├── pom.xml
