@@ -1,0 +1,15 @@
+Amazon.annotations
+Amazon.com.trywithresources
+Amazon.constants
+Amazon.dataprovider.latest
+Amazon.driver
+Amazon.encodedecode
+Amazon.Enums
+Amazon.exceptions
+Amazon.factory
+Amazon.listeners
+Amazon.pages
+Amazon.reports
+Amazon.tests
+Amazon.utils
+Amazon.webdrivermanager
