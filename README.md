@@ -10,8 +10,10 @@ project-root/
 ├── .idea/
 │   ├── inspectionProfiles/
 │   │   └── Project_Default.xml
+
 │   ├── libraries/
 │   │   └── chromedriver_win64.xml
+
 │   ├── .gitignore
 │   ├── compiler.xml
 │   ├── encodings.xml
